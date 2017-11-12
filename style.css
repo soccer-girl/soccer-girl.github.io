@@ -2,10 +2,12 @@
 /* Add your styling for your text here */
 h1, h2, h3, h4, h5, h6 {
     /* Let's add a font for our headings */
+     display: inline-block;
+     align-items: center;
 }
 
 p, * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 /* Nav bar */
@@ -20,9 +22,24 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
     display: block;
-    background-color: #eeeeee;
+    background-color: #eeee;
 }
-
+#button1 {
+  margin-top: 10px
+  position:relative;
+  margin-left: 20px
+  float:right;
+  color:blue;
+  background-color:  #f16aad;
+}
+#button2 {
+  position:relative;
+  margin-left: 20px
+  float:right
+  color:blue;
+  background-color:#f16aad;
+  display: inline-block;
+}
 /* Add more nav bar attributes and styling here */
 
 /* Add scroll link attributes here */
